@@ -1,0 +1,17 @@
+{
+  "name": "custom-elements-hmr-polyfill",
+  "version": "1.0.0",
+  "description": "working hmr for custom element. only part we cant change without hard reload is observed attibutes, but usually not something you change all the time",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "custom-elements-hmr-polyfill": "1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
